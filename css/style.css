@@ -16,6 +16,7 @@ body {
     height: 100%;
     /*this specific part adds opacity by adding a white sheet over*/
     background: rgba(255, 255, 255, .75);
+    margin-bottom: 60px;
 }
 
 p {
@@ -42,7 +43,6 @@ hr {
 #logo {
     width: 250px;
     height: auto;
-    /*margin-bottom: 25px;*/
 }
 
 #socialMediaText {
@@ -52,6 +52,17 @@ hr {
 
 .socialMediaIcon {
     padding: 0 30px;
+}
+
+footer {
+    text-align:center;
+    padding:20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
 }
 
 @media (max-width: 1600px) {
@@ -69,6 +80,10 @@ hr {
 
     #logo {
         width: 200px;
+    }
+
+    footer {
+        font-size: 16px;
     }
 }
 
