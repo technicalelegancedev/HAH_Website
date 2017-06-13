@@ -42,7 +42,7 @@ hr {
 #logo {
     width: 250px;
     height: auto;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
 }
 
 #socialMediaText {
@@ -68,7 +68,7 @@ hr {
     }
 
     #logo {
-        width: 175px;
+        width: 200px;
     }
 }
 
