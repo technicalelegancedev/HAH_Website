@@ -53,15 +53,22 @@ hr {
     padding: 0 30px;
 }
 
-footer {
-    text-align: center;
-    position: fixed;
-    left: 0;
+#footer {
+    /*color: white;*/
+    /*text-align: center;*/
+    position: absolute;
+    left: -2px;
     bottom: 0;
-    height: 20px;
     width: 100%;
-    font-size: 18px;
+    height: 40px;
 }
+
+/*!* if needed here is clearfix *?/*/
+.clearfix:after { content: "\00A0"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.clearfix{ display: inline-block;}
+html[xmlns] .clearfix { display: block;}
+* html .clearfix{ height: 1%;}
+.clearfix {display: block}
 
 @media (max-width: 1600px) {
     html {
@@ -78,10 +85,6 @@ footer {
 
     #logo {
         width: 200px;
-    }
-
-    footer {
-        font-size: 14px;
     }
 }
 
